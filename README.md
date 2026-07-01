@@ -1,12 +1,27 @@
-# React + Vite
+# Image Gallery — Paginated Photo Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive image gallery built with React that fetches 
+real-time photos from the Picsum Photos API. Browse through 
+thousands of high-quality images with smooth pagination, 
+lazy loading, and hover animations.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Real-time photo fetching from Picsum Photos API
+- Paginated browsing — 15 images per page
+- Lazy loading images for optimized performance
+- Smooth hover scale animations on image cards
+- Author name displayed per image
+- Loading state handled gracefully
+- Disabled previous button on first page
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — component-based UI, hooks (useState, useEffect)
+- **Axios** — API requests with async/await
+- **Tailwind CSS** — utility-first styling and responsive layout
+- **Picsum Photos API** — free high-quality random image API
+
+## 🚀 Live Demo
+
+[View Live →](https://gallery-amit.netlify.app)
